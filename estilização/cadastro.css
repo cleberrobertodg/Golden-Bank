@@ -43,27 +43,34 @@ body {
     color: goldenrod;
 }
 
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
 #login {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 10px;
     text-align: center;
 }
 
 #form-area {
     display: flex;
-    flex-direction: column;
-    height: 300px;
+    flex-direction: row;
+    height: 50%;
     border-radius: 100px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-#login-form {
+.login-form, .login-form2 {
     display: flex;
     flex-direction: column;
     width: 100%; 
-    max-width: 400px; 
+    max-width:400px; 
     align-items: center;
 }
 
@@ -73,7 +80,7 @@ input{
     border-radius: 100px;
     background-color: rgb(30, 30, 31);
     border: 2px double goldenrod;
-    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 0 20px; 
     color: goldenrod;
     font-size: 16px; 
@@ -84,7 +91,7 @@ label {
 }
 
 button[type="submit"] {
-    height: 100%;
+    height: 50px;
     width: 400px;
     border-radius: 100px;
     background-color: goldenrod;
@@ -117,7 +124,7 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: end;
-    margin: 0px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
     background-color: rgb(30, 30, 31);
     height:150px;
    

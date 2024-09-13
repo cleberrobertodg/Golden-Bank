@@ -11,6 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 150px;
 }
 
 nav{
@@ -37,6 +38,7 @@ nav a:active {
 .fundo img{
     
     width: 100%;
+    margin-bottom: 0px;
     
 }
 
@@ -46,7 +48,7 @@ body{
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: black
+    background-color: rgb(30, 30, 31);
   }
 
   span{
@@ -57,12 +59,24 @@ body{
     font-size: 40px;
   }
 
+  #rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(30, 30, 31);
+    height:150px;
+   
+  }
+
   footer{
     
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
   }
   footer a{
     color: goldenrod;

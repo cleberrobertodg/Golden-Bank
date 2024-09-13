@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./estilização/login.css">
+    <link rel="stylesheet" href="./estilização/cadastro.css">
     <title>Login</title>
 </head>
 <body>
@@ -17,25 +17,31 @@
             </span>
             <nav>
                 <a href="index.html">Home</a> |
-                <a href="cadastro.html">Criar conta</a>
+                <a href="#">Criar conta</a>
             </nav>
         </div>
    </header>
-
-   <div id="login">
-        <h1>Login</h1>
+   <h1>Cadastro</h1>
+   <div id="login">        
         <div id="form-area">
-            <form id="login-form">
-                <input type="text" placeholder="Usuário">
-                <input type="password" placeholder="Senha">
-                          
+            <form class="login-form">
+                Nome<input type="text" placeholder="Nome">
+                Telefone<input type="tel" placeholder="Telefone">
+                E-mail<input type="email" placeholder="E-mail">
+                CPF<input type="text" placeholder="CPF">
+                Nascimento<input type="date" placeholder="Nascimento">
             </form>
-            <div class="botao">
-                <button type="submit" >Acessar</button> 
-            </div>
-            
+            <form class="login-form2">
+                Logadouro<input type="text" placeholder="Logadouro">
+                Estado<input type="text" placeholder="Estado">
+                Cidade<input type="text" placeholder="Cidade">
+                Bairro<input type="text" placeholder="Bairro">
+                CEP<input type="text" placeholder="CEP"> 
+            </form>
         </div>
-       
+        <div class="botao">
+            <button type="submit" >Acessar</button> 
+        </div>
    </div>
    <div id="rodape">
     <footer>
