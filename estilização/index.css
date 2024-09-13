@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    background-color: rgb(30, 30, 31);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    color: goldenrod;    
+}
+
+nav a{
+    color: goldenrod;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: rgb(30, 30, 31);
+    background-color: goldenrod;
+    border-radius: 10px;
+    
+}
+
+nav a:active {
+    background-color: rgb(30, 30, 31);
+    color: goldenrod;
+}
+
+.fundo img{
+    
+    width: 100%;
+    
+}
+
+
+
+body{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: black
+  }
