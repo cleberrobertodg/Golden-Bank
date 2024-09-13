@@ -50,11 +50,11 @@ body{
   }
 
   span{
-    color: white;
+    color: goldenrod;
   }
   h3{
-    color: goldenrod;
-    font-size: 30px;
+    color: white;
+    font-size: 40px;
   }
 
   footer{
