@@ -15,7 +15,7 @@
 }
 
 nav {
-    color: goldenrod;    
+    color: white;    
 }
 
 nav a {
@@ -30,8 +30,8 @@ nav a:hover {
 }
 
 nav a:active {
-    background-color: rgb(30, 30, 31);
-    color: goldenrod;
+    background-color: goldenrod;
+    color: white;
 }
 
 body {
@@ -102,4 +102,27 @@ button[type="submit"]:hover {
 button[type="submit"]:active {
     background-color: rgb(30, 30, 31);
     color: goldenrod;
+}
+
+
+span{
+    color: white;
+  }
+  h3{
+    color: goldenrod;
+    font-size: 30px;
+  }
+
+  footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  footer a{
+    color: goldenrod;
+  }
+footer a:hover{
+color: white;
 }
