@@ -6,8 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./estilização/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="./estilização/menu.css">
+    <title>Menu</title>
 </head>
 <body>
     <header>
@@ -16,27 +16,27 @@
                 <img src="./Imagens/Logo Centro.png" width="100%" height="100px" alt="">
             </span>
             <nav>
-                <a href="index.html">Home</a> |
-                <a href="cadastro.html">Criar conta</a>
-            </nav>
+                <a href="index.html">Sair</a> 
+                
         </div>
    </header>
-
-   <div id="login">
-        <h1>Login</h1>
-        <div id="form-area">
-            <form id="login-form">
-                <input type="text" placeholder="Nome de usuário" required>
-                <input type="password" placeholder="Senha" required>
-                          
-            </form>
-            <div class="botao">
-                <button type="submit" >Acessar</button> 
-            </div>
-            
-        </div>
-       
-   </div>
+    <h1>Olá, </h1>
+    <h2>Saldo em conta:</h2>
+    <div id="saldo">
+        R$
+    </div>
+    <div id="options">
+        <button id="saque-button">Saque</button>
+        <button id="deposito-button">Depósito</button>
+    </div>
+    <div id="saque-info" class="hidden">
+        <label for="saque-amount">Digite o valor do saque:</label>
+        <input type="number" id="saque-amount" placeholder="Valor do saque" />
+    </div>
+    <div id="deposito-info" class="hidden">
+        <label for="deposito-amount">Digite o valor do depósito:</label>
+        <input type="number" id="deposito-amount" placeholder="Valor do depósito" />
+    </div>
    <div id="rodape">
     <footer>
         <div class="links-rodape">
@@ -50,7 +50,6 @@
         <div class="bandeiras">
             <img src="./Imagens/Elo.png" height="35px" alt="">
         </div>
-               
     </footer>
    </div>
    <script src="./script/script.js"></script>

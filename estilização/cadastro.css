@@ -41,6 +41,7 @@ body {
     font-style: normal;
     background-color: black;
     color: goldenrod;
+    
 }
 
 h1{
@@ -92,7 +93,7 @@ label {
 
 button[type="submit"] {
     height: 50px;
-    width: 400px;
+    width: 150px;
     border-radius: 100px;
     background-color: goldenrod;
     color: black;
@@ -112,36 +113,91 @@ button[type="submit"]:active {
 }
 
 
-span{
+span {
     color: goldenrod;
-  }
-  h3{
+}
+
+h3 {
     color: white;
     font-size: 40px;
-  }
+    margin: 20px 0;
+}
 
-  #rodape{
+#rodape {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    margin: 40px 0px 0px 0px;
+    align-items: center;
     background-color: rgb(30, 30, 31);
-    height:150px;
-   
-  }
-
-  footer{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    margin-left: 20px;
-  }
-  footer a{
+    padding: 20px;
     color: goldenrod;
-  }
-footer a:hover{
-color: white;
+    margin-top: auto; /* Garante que o rodapé vá para a parte inferior da tela */
+}
+
+footer {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo em coluna em dispositivos menores */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.links-rodape {
+    margin-bottom: 10px;
+}
+
+.links-rodape a {
+    color: goldenrod;
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.links-rodape a:hover {
+    color: white;
+}
+
+/* Consultas de mídia para dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto; /* Ajusta a altura do cabeçalho */
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    #login {
+        padding: 30px 10px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    button[type="submit"] {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    button[type="submit"] {
+        width: 150px;
+        max-width: 150px;
+        font-size: 14px;
+    }
 }
